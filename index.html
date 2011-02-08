@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>~Crazy Matchmaker~</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>Crazy Matchmaker</h1>
+		<h3><center>Are We Compatible?</center></h3>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="#" class="selected" title="home page">home</a></li>
+		</ul>
+
+	</div>
+	<div id="content">
+		<div id="page">
+			<center>
+			<h2>Tell Me About Yourself:</h2><br/><br/><hr/>
+			<br>
+			<h3><i>General Info:</i></h3><br/></center>
+			<form method="post" action="match.php">
+  
+ 				&nbsp &nbsp &nbsp<label for="firstname"> First Name: </label>
+  				<input type="text" id="firstname" name="firstname" /> <br/><br/>
+ 				&nbsp &nbsp &nbsp<label for="hometown"> Hometown: </label>
+  				<input type="text" id="hometown" name="hometown" /><br/>
+				<br/>
+				&nbsp &nbsp &nbsp<label for="gender"> Interested In: </label><br/>
+				&nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" id="gender" name="gender" value="male" checked/>Male <br/>
+				&nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" id="gender" name="gender" value="female" />Female <br/><br/>
+
+				&nbsp &nbsp &nbsp<label for="birthday"> Birthday: </label><br/>
+
+				&nbsp &nbsp &nbsp&nbsp &nbsp <label for="month">Month:</label>
+				<select name="month">
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+					<option>April</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>December</option>
+				</select> 
+
+				&nbsp &nbsp &nbsp <label for="day">Day:</label>
+				<SCRIPT Language="JavaScript">
+				<!-- 
+
+				document.write('<select name="day">')
+				
+				for(i = 1; i < 32; i++){
+   					document.write('<option>' + i)
+   				
+				}
+
+					document.write('</select>')
+				
+				document.write('&nbsp &nbsp &nbsp <label for="year">Year:</label>')
+				document.write('<select name="year">')
+				
+				for(i = 1900; i < 2011; i++){
+   					document.write('<option>' + i)
+   				
+				}
+
+					document.write('</select><br/>')
+
+				//-->
+				</SCRIPT>
+
+				<center><br/><br/><hr/><br/><h3><i>What do you like to do when you have some free time?</i></h3>
+				<input type="checkbox" name="read" value="checked" />Read</input><br />
+				<input type="checkbox" name="playvg" value="checked" />Play Video Games</input><br />
+				<input type="checkbox" name="sleep" value="checked" />Sleep</input><br />
+				<input type="checkbox" name="shop" value="checked" />Go Shopping</input><br />
+				<input type="checkbox" name="friends" value="checked" />Hang Out With Friends</input><br />
+
+
+
+
+  				<br/>
+				<center><input type="submit" value="Virtual Fingers Crossed....." name="submit"/></center>
+
+			</form>
+			</center>
+	
+		</div>
+		<div id="sidebar">
+			<h4>About us</h4><center>
+			<p class="bold">This page was created by 4 CPSC 350 students:</p>
+			
+			<ul>
+				<li>Ford Peterson</li>
+				<li>Amy Sams</li>
+				<li>Erin Wuepper</li>
+				<li>Rebecca Zeitz</li>
+			</ul></center>
+	
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>&copy; 2008 mySite. Design: <a href="http://www.spyka.net" title="spyka Webmaster">spyka webmaster</a> available from <a href="http://www.justfreetemplates.com" title="free css templates">Just Free Templates</a>. Valid <a href="http://validator.w3.org/check/referer" title="valid XHTML strict">XHTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS">CSS</a></p>
+	</div>
+			
+</div>
+</body>
+</html>
