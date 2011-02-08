@@ -24,7 +24,7 @@
 				$name = $_POST['firstname'];
 				if ($_POST['gender'] == 'female')
 				{
-				$computerName = 'Lisa';
+				$computerName = 'Emmy';
 				}
 
 				if ($_POST['gender'] == 'male')
